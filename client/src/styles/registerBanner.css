@@ -1,0 +1,64 @@
+.register-banner{
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
+    color:#fff;
+    padding:45px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.register-banner-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.register-banner-text{
+    flex:1;
+}
+
+.register-banner h1{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.register-banner p{
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.register-features{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.feature-card{
+    background:rgba(255,255,255,.15);
+    padding:12px 18px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.register-banner-icon{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    background:rgba(255,255,255,.15);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+}
+
+@media(max-width:768px){
+    .register-banner-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .register-features{
+        justify-content:center;
+    }
+}

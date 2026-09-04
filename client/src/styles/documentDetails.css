@@ -1,0 +1,88 @@
+.details-container{
+    background:#111827;
+    min-height:100vh;
+    padding:60px;
+    display:flex;
+    justify-content:center;
+}
+
+.details-card{
+ max-width:850px;
+
+margin:auto;
+
+padding:45px;
+
+border-radius:25px;
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);  
+}
+
+.details-card h1{
+    margin-bottom:30px;
+}
+
+.detail-row{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 0;
+    border-bottom:1px solid #20344f;
+}
+
+.detail-row span{
+    color:#cbd5e1;
+}
+
+.active{
+    color:#22c55e;
+}
+
+.online{
+    color:#3b82f6;
+}
+
+.details-card h2{
+    margin-top:35px;
+    margin-bottom:20px;
+}
+
+.details-card ul{
+    margin-left:20px;
+}
+
+.details-card li{
+    margin:12px 0;
+}
+
+.buttons{
+    margin-top:35px;
+    display:flex;
+    gap:20px;
+}
+
+.download-btn,
+.renew-btn,
+.guide-btn{
+    padding:14px 25px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.download-btn{
+    background:white;
+    color:#081b33;
+}
+
+.renew-btn{
+    background:#2563eb;
+    color:white;
+}
+
+.guide-btn{
+    background:#0f766e;
+    color:white;
+}

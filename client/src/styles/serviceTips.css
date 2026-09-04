@@ -1,0 +1,74 @@
+.service-tips{
+    margin:50px 0;
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.service-tips h2{
+    text-align:center;
+    color:#0F4C81;
+    margin-bottom:35px;
+    font-size:30px;
+}
+
+.tips-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.tip-card{
+    background:#F8FAFC;
+    border:1px solid #E2E8F0;
+    border-radius:18px;
+    padding:30px 25px;
+    text-align:center;
+    transition:0.3s ease;
+}
+
+.tip-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(37,99,235,.15);
+}
+
+.tip-card span{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:70px;
+    height:70px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#DBEAFE;
+    font-size:34px;
+}
+
+.tip-card h3{
+    color:#0F4C81;
+    margin-bottom:12px;
+    font-size:20px;
+}
+
+.tip-card p{
+    color:#64748B;
+    line-height:1.7;
+    font-size:15px;
+}
+
+@media(max-width:992px){
+    .tips-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .tips-grid{
+        grid-template-columns:1fr;
+    }
+
+    .service-tips{
+        padding:25px;
+    }
+}

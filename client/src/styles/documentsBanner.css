@@ -1,0 +1,89 @@
+.documents-banner {
+  width: 100%;
+  background: linear-gradient(135deg, #0f4c81, #2563eb);
+  border-radius: 20px;
+  padding: 50px;
+  margin: 30px 0;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.documents-banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.documents-banner-text {
+  flex: 1;
+}
+
+.documents-banner-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.documents-banner-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.95;
+  max-width: 650px;
+}
+
+.documents-banner-icon {
+  width: 140px;
+  height: 140px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  flex-shrink: 0;
+}
+
+.documents-banner-features {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.documents-banner-features span {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .documents-banner {
+    padding: 35px 25px;
+  }
+
+  .documents-banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .documents-banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .documents-banner-text p {
+    font-size: 1rem;
+  }
+
+  .documents-banner-features {
+    justify-content: center;
+  }
+
+  .documents-banner-icon {
+    width: 110px;
+    height: 110px;
+    font-size: 55px;
+  }
+}

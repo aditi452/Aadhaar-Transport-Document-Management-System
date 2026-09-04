@@ -1,0 +1,122 @@
+.login-page{
+    max-width:1280px;
+    margin:120px auto 50px;
+    padding:0 20px;
+    background:#F5F9FD;
+    min-height:100vh;
+}
+
+.login-banner{
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
+    color:#fff;
+    padding:40px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.login-banner-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.login-banner-text h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.login-banner-text p{
+    max-width:600px;
+    line-height:1.8;
+}
+
+.login-banner-icon{
+    width:140px;
+    height:140px;
+    background:rgba(255,255,255,.15);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+}
+
+.login-form-section{
+    background:#fff;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    max-width:650px;
+    margin:0 auto;
+}
+
+.login-form-section h2{
+    text-align:center;
+    color:#0F4C81;
+    margin-bottom:30px;
+}
+
+.login-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.login-form input{
+    padding:15px;
+    border:1px solid #CBD5E1;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.login-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.login-options a{
+    color:#2563EB;
+    text-decoration:none;
+}
+
+.login-form button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.login-form button:hover{
+    background:#1D4ED8;
+}
+
+.register-link{
+    text-align:center;
+}
+
+.register-link a{
+    color:#2563EB;
+    text-decoration:none;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .login-banner-content{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    .login-form-section{
+        padding:25px;
+    }
+
+}
+

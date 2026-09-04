@@ -1,0 +1,17 @@
+.service-search{
+    margin:30px 0;
+}
+
+.service-search input{
+    width:100%;
+    padding:16px 20px;
+    border:1px solid #dbe4ee;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+}
+
+.service-search input:focus{
+    border-color:#2563EB;
+    box-shadow:0 0 8px rgba(37,99,235,.2);
+}

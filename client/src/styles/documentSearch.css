@@ -1,0 +1,31 @@
+.document-search{
+    width:90%;
+    margin:30px auto;
+    display:flex;
+    gap:15px;
+}
+
+.document-search input{
+    flex:1;
+    padding:15px 18px;
+    border:none;
+    border-radius:12px;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    font-size:16px;
+    outline:none;
+}
+
+.document-search button{
+    background:#0f172a;
+    color:#fff;
+    border:none;
+    border-radius:12px;
+    padding:0 25px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.document-search button:hover{
+    background:#1e293b;
+}

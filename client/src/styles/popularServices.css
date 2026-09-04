@@ -1,0 +1,62 @@
+.popular-services{
+    margin:50px 0;
+}
+
+.popular-services h2{
+    text-align:center;
+    color:#0F4C81;
+    margin-bottom:30px;
+}
+
+.popular-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.popular-card{
+    background:#fff;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.popular-card:hover{
+    transform:translateY(-5px);
+}
+
+.popular-card span{
+    font-size:45px;
+}
+
+.popular-card h3{
+    margin:15px 0;
+    color:#0F4C81;
+}
+
+.popular-card p{
+    color:#64748B;
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.popular-card button{
+    background:#2563EB;
+    color:#fff;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.popular-card button:hover{
+    background:#1D4ED8;
+}
+
+@media(max-width:900px){
+    .popular-grid{
+        grid-template-columns:1fr;
+    }
+}

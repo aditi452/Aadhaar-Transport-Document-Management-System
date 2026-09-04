@@ -1,0 +1,14 @@
+.track-page{
+    background:#f5f7fb;
+    min-height:100vh;
+    padding-bottom:40px;
+}
+
+.track-container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    margin-top:-60px;
+    position:relative;
+    z-index:10;
+}

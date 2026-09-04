@@ -1,0 +1,52 @@
+.documents-section{
+    background:#fff;
+    padding:30px;
+    margin-top:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.documents-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.documents-header h2{
+    color:#0F4C81;
+    font-size:28px;
+}
+
+.upload-btn{
+    background:#2563EB;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.upload-btn:hover{
+    background:#1D4ED8;
+}
+
+.documents-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-top:25px;
+}
+
+@media(max-width:900px){
+    .documents-grid{
+        grid-template-columns:1fr;
+    }
+
+    .documents-header{
+        flex-direction:column;
+        gap:15px;
+        align-items:flex-start;
+    }
+}

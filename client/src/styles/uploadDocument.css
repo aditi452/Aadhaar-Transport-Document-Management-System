@@ -1,0 +1,49 @@
+.upload-section {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.upload-section h2 {
+    color: #081b33;
+    margin-bottom: 20px;
+}
+
+
+.upload-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.upload-box input {
+    display: none;
+}
+
+
+.upload-box label {
+    background: #081b33;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.upload-box button {
+    background: #1d72f3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.upload-box button:hover {
+    opacity: 0.9;
+}
